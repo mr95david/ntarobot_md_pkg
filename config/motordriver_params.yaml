@@ -1,0 +1,14 @@
+md49_controller_node:
+  ros__parameters:    
+    port_name:          "/dev/ttyUSB0" 
+    serial_baud:        9600
+    mode_p:             1
+    mode_aceleration:   5
+    mode_regulator:     True
+    mode_timeout:       True
+    speed_value_r:      128
+    speed_value_l:      128
+    wheel_radius:       0.07
+    wheel_separation:   0.405
+    # TODO: Aun falta agregar los valores especificos de las caracteristicas fisicas del robot
+# Parameters list for md controller

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ntarobot_pkg</name>
+  <version>0.1.0</version>
+  <description>NTA Robot General Package</description>
+  <maintainer email="elio.d.rodriguez@edu.ufes.br">nta2024</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>rcl_interfaces</depend>
+  <depend>numpy</depend>
+  <depend>serial</depend>
+  <depend>os</depend>
+  <depend>struct</depend>
+  <depend>time</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
